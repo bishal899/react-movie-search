@@ -1,7 +1,8 @@
 .fav-content {
-  padding: 2rem;
-  width: 100%;
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 230px));
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 .fav-content h2 {
@@ -18,7 +19,8 @@
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
   margin: 2rem auto;
-  max-width: 600px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .fav-empty h2 {
